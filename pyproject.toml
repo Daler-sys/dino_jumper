@@ -1,0 +1,21 @@
+[project]
+name = "dino-coch"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Daler Ismail-zade", email = "ismailzade.d.n@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.5",
+    "playwright>=1.65.2",
+    "torch>=2.15.0",
+]
+
+[project.scripts]
+dino-coch = "dino_coch:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
