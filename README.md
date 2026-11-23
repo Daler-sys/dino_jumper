@@ -11,16 +11,6 @@ A **Deep Q-Network (DQN)** agent that learns to play the Chrome T-Rex runner gam
 - Supports **training mode** and **inference/JS-speed mode** (`TRAIN_MODE=False` for fast play).
 - Includes saved v9 weights (`best_dqn_model_v9.pt`, `dqn_model_v9.pt`) and training state/stats.
 
-## Demo
-
-Screenshots captured from the local game in this project (`C:\dino_coch\game`):
-
-| Game start | In action |
-|---|---|
-| ![Dino running](docs/dino-running.jpg) | ![Dino jumping](docs/dino-jump.jpg) |
-
-> The screenshots show the local `t-rex-runner` game used by the agent. They are project-specific captures, not random web images.
-
 ## Agent / model overview
 
 From `dino_dqn_v9.py` (v9):
